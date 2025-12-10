@@ -53,9 +53,14 @@ The Gold Layer produces a Star Schema:
 ********** What all Technologies/Applications are used **********
 
 Azure Data Factory – Orchestrates data movement and ingestion
+
 Azure SQL Database – Temporary data storage post-ingestion (from GitHub via API)
+
 Azure Data Lake Gen2 – Scalable and secure data storage layer
+
 Databricks (Delta Live Tables) – Data transformation & processing
+
 Delta Lake Format – Supports ACID transactions & versioning
+
 Power BI – Reporting and visualization layer
 GitHub – Source control for dataset and notebooks
